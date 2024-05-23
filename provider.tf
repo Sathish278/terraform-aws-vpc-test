@@ -5,12 +5,12 @@ terraform {
       version = "5.48.0"
     }
   }
-  backend "s3" {
-    bucket = "sathishreddy-remote-state"
-    key    = "expense-vpc"
-    region = "us-east-1"
-    dynamodb_table = "sathishreddy-locking"
-  }
+#   backend "s3" {
+#     bucket = "sathishreddy-remote-state"
+#     key    = "expense-vpc"
+#     region = "us-east-1"
+#     dynamodb_table = "sathishreddy-locking"
+#   }
 }
 
 #provide authentication here
